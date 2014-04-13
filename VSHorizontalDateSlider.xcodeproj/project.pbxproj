@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FD9F81718FA8B110010FA6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9F81618FA8B110010FA6D /* Foundation.framework */; };
+		4FD9F81918FA8B110010FA6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9F81818FA8B110010FA6D /* CoreGraphics.framework */; };
+		4FD9F81B18FA8B110010FA6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9F81A18FA8B110010FA6D /* UIKit.framework */; };
+		4FD9F82118FA8B110010FA6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9F81F18FA8B110010FA6D /* InfoPlist.strings */; };
+		4FD9F82318FA8B110010FA6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9F82218FA8B110010FA6D /* main.m */; };
+		4FD9F82718FA8B110010FA6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9F82618FA8B110010FA6D /* AppDelegate.m */; };
+		4FD9F82918FA8B110010FA6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9F82818FA8B110010FA6D /* Images.xcassets */; };
+		4FD9F83018FA8B120010FA6D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9F82F18FA8B120010FA6D /* XCTest.framework */; };
+		4FD9F83118FA8B120010FA6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9F81618FA8B110010FA6D /* Foundation.framework */; };
+		4FD9F83218FA8B120010FA6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9F81A18FA8B110010FA6D /* UIKit.framework */; };
+		4FD9F83A18FA8B120010FA6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9F83818FA8B120010FA6D /* InfoPlist.strings */; };
+		4FD9F83C18FA8B120010FA6D /* VSHorizontalDateSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9F83B18FA8B120010FA6D /* VSHorizontalDateSliderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FD9F83318FA8B120010FA6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD9F80B18FA8B110010FA6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD9F81218FA8B110010FA6D;
+			remoteInfo = VSHorizontalDateSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FD9F81318FA8B110010FA6D /* VSHorizontalDateSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSHorizontalDateSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD9F81618FA8B110010FA6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4FD9F81818FA8B110010FA6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4FD9F81A18FA8B110010FA6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4FD9F81E18FA8B110010FA6D /* VSHorizontalDateSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSHorizontalDateSlider-Info.plist"; sourceTree = "<group>"; };
+		4FD9F82018FA8B110010FA6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FD9F82218FA8B110010FA6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FD9F82418FA8B110010FA6D /* VSHorizontalDateSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VSHorizontalDateSlider-Prefix.pch"; sourceTree = "<group>"; };
+		4FD9F82518FA8B110010FA6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FD9F82618FA8B110010FA6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FD9F82818FA8B110010FA6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FD9F82E18FA8B120010FA6D /* VSHorizontalDateSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSHorizontalDateSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD9F82F18FA8B120010FA6D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4FD9F83718FA8B120010FA6D /* VSHorizontalDateSliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSHorizontalDateSliderTests-Info.plist"; sourceTree = "<group>"; };
+		4FD9F83918FA8B120010FA6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FD9F83B18FA8B120010FA6D /* VSHorizontalDateSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSHorizontalDateSliderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD9F81018FA8B110010FA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9F81918FA8B110010FA6D /* CoreGraphics.framework in Frameworks */,
+				4FD9F81B18FA8B110010FA6D /* UIKit.framework in Frameworks */,
+				4FD9F81718FA8B110010FA6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD9F82B18FA8B120010FA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9F83018FA8B120010FA6D /* XCTest.framework in Frameworks */,
+				4FD9F83218FA8B120010FA6D /* UIKit.framework in Frameworks */,
+				4FD9F83118FA8B120010FA6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FD9F80A18FA8B110010FA6D = {
+			isa = PBXGroup;
+			children = (
+				4FD9F81C18FA8B110010FA6D /* VSHorizontalDateSlider */,
+				4FD9F83518FA8B120010FA6D /* VSHorizontalDateSliderTests */,
+				4FD9F81518FA8B110010FA6D /* Frameworks */,
+				4FD9F81418FA8B110010FA6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FD9F81418FA8B110010FA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9F81318FA8B110010FA6D /* VSHorizontalDateSlider.app */,
+				4FD9F82E18FA8B120010FA6D /* VSHorizontalDateSliderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD9F81518FA8B110010FA6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9F81618FA8B110010FA6D /* Foundation.framework */,
+				4FD9F81818FA8B110010FA6D /* CoreGraphics.framework */,
+				4FD9F81A18FA8B110010FA6D /* UIKit.framework */,
+				4FD9F82F18FA8B120010FA6D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FD9F81C18FA8B110010FA6D /* VSHorizontalDateSlider */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9F82518FA8B110010FA6D /* AppDelegate.h */,
+				4FD9F82618FA8B110010FA6D /* AppDelegate.m */,
+				4FD9F82818FA8B110010FA6D /* Images.xcassets */,
+				4FD9F81D18FA8B110010FA6D /* Supporting Files */,
+			);
+			path = VSHorizontalDateSlider;
+			sourceTree = "<group>";
+		};
+		4FD9F81D18FA8B110010FA6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9F81E18FA8B110010FA6D /* VSHorizontalDateSlider-Info.plist */,
+				4FD9F81F18FA8B110010FA6D /* InfoPlist.strings */,
+				4FD9F82218FA8B110010FA6D /* main.m */,
+				4FD9F82418FA8B110010FA6D /* VSHorizontalDateSlider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FD9F83518FA8B120010FA6D /* VSHorizontalDateSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9F83B18FA8B120010FA6D /* VSHorizontalDateSliderTests.m */,
+				4FD9F83618FA8B120010FA6D /* Supporting Files */,
+			);
+			path = VSHorizontalDateSliderTests;
+			sourceTree = "<group>";
+		};
+		4FD9F83618FA8B120010FA6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9F83718FA8B120010FA6D /* VSHorizontalDateSliderTests-Info.plist */,
+				4FD9F83818FA8B120010FA6D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FD9F81218FA8B110010FA6D /* VSHorizontalDateSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD9F83F18FA8B120010FA6D /* Build configuration list for PBXNativeTarget "VSHorizontalDateSlider" */;
+			buildPhases = (
+				4FD9F80F18FA8B110010FA6D /* Sources */,
+				4FD9F81018FA8B110010FA6D /* Frameworks */,
+				4FD9F81118FA8B110010FA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSHorizontalDateSlider;
+			productName = VSHorizontalDateSlider;
+			productReference = 4FD9F81318FA8B110010FA6D /* VSHorizontalDateSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FD9F82D18FA8B120010FA6D /* VSHorizontalDateSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD9F84218FA8B120010FA6D /* Build configuration list for PBXNativeTarget "VSHorizontalDateSliderTests" */;
+			buildPhases = (
+				4FD9F82A18FA8B120010FA6D /* Sources */,
+				4FD9F82B18FA8B120010FA6D /* Frameworks */,
+				4FD9F82C18FA8B120010FA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD9F83418FA8B120010FA6D /* PBXTargetDependency */,
+			);
+			name = VSHorizontalDateSliderTests;
+			productName = VSHorizontalDateSliderTests;
+			productReference = 4FD9F82E18FA8B120010FA6D /* VSHorizontalDateSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FD9F80B18FA8B110010FA6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = nvson28;
+				TargetAttributes = {
+					4FD9F82D18FA8B120010FA6D = {
+						TestTargetID = 4FD9F81218FA8B110010FA6D;
+					};
+				};
+			};
+			buildConfigurationList = 4FD9F80E18FA8B110010FA6D /* Build configuration list for PBXProject "VSHorizontalDateSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4FD9F80A18FA8B110010FA6D;
+			productRefGroup = 4FD9F81418FA8B110010FA6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD9F81218FA8B110010FA6D /* VSHorizontalDateSlider */,
+				4FD9F82D18FA8B120010FA6D /* VSHorizontalDateSliderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FD9F81118FA8B110010FA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9F82118FA8B110010FA6D /* InfoPlist.strings in Resources */,
+				4FD9F82918FA8B110010FA6D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD9F82C18FA8B120010FA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9F83A18FA8B120010FA6D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FD9F80F18FA8B110010FA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9F82718FA8B110010FA6D /* AppDelegate.m in Sources */,
+				4FD9F82318FA8B110010FA6D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD9F82A18FA8B120010FA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9F83C18FA8B120010FA6D /* VSHorizontalDateSliderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FD9F83418FA8B120010FA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD9F81218FA8B110010FA6D /* VSHorizontalDateSlider */;
+			targetProxy = 4FD9F83318FA8B120010FA6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FD9F81F18FA8B110010FA6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD9F82018FA8B110010FA6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4FD9F83818FA8B120010FA6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD9F83918FA8B120010FA6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FD9F83D18FA8B120010FA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FD9F83E18FA8B120010FA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FD9F84018FA8B120010FA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSHorizontalDateSlider/VSHorizontalDateSlider-Prefix.pch";
+				INFOPLIST_FILE = "VSHorizontalDateSlider/VSHorizontalDateSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4FD9F84118FA8B120010FA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSHorizontalDateSlider/VSHorizontalDateSlider-Prefix.pch";
+				INFOPLIST_FILE = "VSHorizontalDateSlider/VSHorizontalDateSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4FD9F84318FA8B120010FA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VSHorizontalDateSlider.app/VSHorizontalDateSlider";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSHorizontalDateSlider/VSHorizontalDateSlider-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VSHorizontalDateSliderTests/VSHorizontalDateSliderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4FD9F84418FA8B120010FA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VSHorizontalDateSlider.app/VSHorizontalDateSlider";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSHorizontalDateSlider/VSHorizontalDateSlider-Prefix.pch";
+				INFOPLIST_FILE = "VSHorizontalDateSliderTests/VSHorizontalDateSliderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FD9F80E18FA8B110010FA6D /* Build configuration list for PBXProject "VSHorizontalDateSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD9F83D18FA8B120010FA6D /* Debug */,
+				4FD9F83E18FA8B120010FA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD9F83F18FA8B120010FA6D /* Build configuration list for PBXNativeTarget "VSHorizontalDateSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD9F84018FA8B120010FA6D /* Debug */,
+				4FD9F84118FA8B120010FA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FD9F84218FA8B120010FA6D /* Build configuration list for PBXNativeTarget "VSHorizontalDateSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD9F84318FA8B120010FA6D /* Debug */,
+				4FD9F84418FA8B120010FA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FD9F80B18FA8B110010FA6D /* Project object */;
+}
