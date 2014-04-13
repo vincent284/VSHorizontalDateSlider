@@ -19,6 +19,9 @@
 		4FD9F83218FA8B120010FA6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9F81A18FA8B110010FA6D /* UIKit.framework */; };
 		4FD9F83A18FA8B120010FA6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9F83818FA8B120010FA6D /* InfoPlist.strings */; };
 		4FD9F83C18FA8B120010FA6D /* VSHorizontalDateSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9F83B18FA8B120010FA6D /* VSHorizontalDateSliderTests.m */; };
+		4FD9F84818FA8B750010FA6D /* VSHorizontalDateSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9F84718FA8B750010FA6D /* VSHorizontalDateSlider.m */; };
+		4FD9F84C18FA8B830010FA6D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9F84A18FA8B830010FA6D /* MainViewController.m */; };
+		4FD9F84D18FA8B830010FA6D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9F84B18FA8B830010FA6D /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		4FD9F83718FA8B120010FA6D /* VSHorizontalDateSliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSHorizontalDateSliderTests-Info.plist"; sourceTree = "<group>"; };
 		4FD9F83918FA8B120010FA6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4FD9F83B18FA8B120010FA6D /* VSHorizontalDateSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSHorizontalDateSliderTests.m; sourceTree = "<group>"; };
+		4FD9F84618FA8B750010FA6D /* VSHorizontalDateSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSHorizontalDateSlider.h; sourceTree = "<group>"; };
+		4FD9F84718FA8B750010FA6D /* VSHorizontalDateSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSHorizontalDateSlider.m; sourceTree = "<group>"; };
+		4FD9F84918FA8B830010FA6D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4FD9F84A18FA8B830010FA6D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4FD9F84B18FA8B830010FA6D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,10 @@
 		4FD9F81C18FA8B110010FA6D /* VSHorizontalDateSlider */ = {
 			isa = PBXGroup;
 			children = (
+				4FD9F84518FA8B230010FA6D /* VSHorizontalDateSlider */,
+				4FD9F84918FA8B830010FA6D /* MainViewController.h */,
+				4FD9F84A18FA8B830010FA6D /* MainViewController.m */,
+				4FD9F84B18FA8B830010FA6D /* MainViewController.xib */,
 				4FD9F82518FA8B110010FA6D /* AppDelegate.h */,
 				4FD9F82618FA8B110010FA6D /* AppDelegate.m */,
 				4FD9F82818FA8B110010FA6D /* Images.xcassets */,
@@ -142,6 +154,15 @@
 				4FD9F83818FA8B120010FA6D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FD9F84518FA8B230010FA6D /* VSHorizontalDateSlider */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9F84618FA8B750010FA6D /* VSHorizontalDateSlider.h */,
+				4FD9F84718FA8B750010FA6D /* VSHorizontalDateSlider.m */,
+			);
+			name = VSHorizontalDateSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FD9F82118FA8B110010FA6D /* InfoPlist.strings in Resources */,
+				4FD9F84D18FA8B830010FA6D /* MainViewController.xib in Resources */,
 				4FD9F82918FA8B110010FA6D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FD9F82718FA8B110010FA6D /* AppDelegate.m in Sources */,
+				4FD9F84818FA8B750010FA6D /* VSHorizontalDateSlider.m in Sources */,
 				4FD9F82318FA8B110010FA6D /* main.m in Sources */,
+				4FD9F84C18FA8B830010FA6D /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
