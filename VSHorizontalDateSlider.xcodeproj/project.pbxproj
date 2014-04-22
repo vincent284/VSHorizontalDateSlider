@@ -381,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vincent Nguyen (7L26YX4VKJ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VSHorizontalDateSlider/VSHorizontalDateSlider-Prefix.pch";
 				INFOPLIST_FILE = "VSHorizontalDateSlider/VSHorizontalDateSlider-Info.plist";
@@ -394,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vincent Nguyen (7L26YX4VKJ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VSHorizontalDateSlider/VSHorizontalDateSlider-Prefix.pch";
 				INFOPLIST_FILE = "VSHorizontalDateSlider/VSHorizontalDateSlider-Info.plist";
@@ -461,6 +463,7 @@
 				4FD9F84118FA8B120010FA6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD9F84218FA8B120010FA6D /* Build configuration list for PBXNativeTarget "VSHorizontalDateSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +472,7 @@
 				4FD9F84418FA8B120010FA6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
